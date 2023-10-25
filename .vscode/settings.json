@@ -1,0 +1,8 @@
+{
+    "dart.flutterSdkPath": "/Users/mitchel/Documents/archive/flutter/bin",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+    },
+    "editor.formatOnSave": true,
+    // "dart.form" 
+}
