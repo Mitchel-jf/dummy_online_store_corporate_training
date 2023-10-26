@@ -1,10 +1,10 @@
 import 'dart:io';
 
+import 'package:dummy_online_store/src/config/routes/route_names.dart';
+import 'package:dummy_online_store/src/config/routes/routes.dart';
 import 'package:dummy_online_store/src/config/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-import 'modules/home_page/home_page.dart';
 
 class DummyOnlineStoreApp extends StatelessWidget {
   const DummyOnlineStoreApp({super.key});
@@ -22,7 +22,8 @@ class DummyOnlineStoreApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
-      home: HomePage(),
+      initialRoute: RouteNames.homePage,
+      routes: routes,
     );
   }
 }
